@@ -46,6 +46,7 @@ public class Model {
 		*/
 		
 		// CREAZIONE DEGLI ARCHI -- metodo 2 (da un vertice, trova tutti i connessi)
+		//puà andare bene se non c'è un numero elevato di connessioni
 		/*
 		for(Fermata fp: this.fermate) {
 			List<Fermata> connesse = dao.fermateSuccessive(fp, fermateIdMap) ;
